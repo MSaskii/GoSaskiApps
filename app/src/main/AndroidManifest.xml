@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kii.gosaskiapps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoSaskiApps">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RS"/>
+        <activity android:name=".RSAwalBros"/>
+        <activity android:name=".RSEkaHospital"/>
+        <activity android:name=".RSSyafira"/>
+        <activity android:name=".RSIbnuSina"/>
+        <activity android:name=".RSEriaBunda"/>
+        <activity android:name=".PL"/>
+        <activity android:name=".Sukajadi"/>
+        <activity android:name=".TenayanRaya"/>
+        <activity android:name=".Tampan"/>
+        <activity android:name=".LimaPuluh"/>
+        <activity android:name=".PayungSekaki"/>
+        <activity android:name=".MR"/>
+        <activity android:name=".MRNaga"/>
+        <activity android:name=".MRPitu"/>
+        <activity android:name=".MRPlanet"/>
+        <activity android:name=".MRGlobal"/>
+        <activity android:name=".MRKas"/>
+        <activity android:name=".SC"/>
+        <activity android:name=".SCMasmur"/>
+        <activity android:name=".SCMMutu"/>
+        <activity android:name=".SCMuda"/>
+        <activity android:name=".SCMuti"/>
+        <activity android:name=".SCMutu"/>
+    </application>
+
+</manifest>
